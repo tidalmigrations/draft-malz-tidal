@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "value": "eastus"
+    },
+    "prefix": {
+      "value": "mlz09"
+    },
+    "tags": {
+      "value": {}
+    },
+    "adminUsername": {
+      "value": "mladm02332"
+    },
+    "adminPassword": {
+      "value": "Pass@word123"
+    },
+    "vnetName": {
+      "value": "appservice-vnet"
+    },
+    "subnetName": {
+      "value": "appservice-subnet"
+    }
+  }
+}
